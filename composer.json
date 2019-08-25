@@ -1,5 +1,5 @@
 {
-    "name": "lucadegasperi/oauth2-server-laravel",
+    "name": "mertyildiran/oauth2-server-laravel",
     "description": "An OAuth 2.0 bridge for Laravel and Lumen",
     "keywords": ["oauth2", "oauth", "server", "api", "laravel", "lumen"],
     "license": "MIT",
@@ -11,16 +11,21 @@
         {
             "name": "Vincent Klaiber",
             "email": "hello@vinkla.com"
+        },
+        {
+            "name": "Mehmet Mert Yildiran",
+            "email": "mehmetmertyildiran@gmail.com",
+            "role": "Maintainer"
         }
     ],
     "require": {
         "php": ">=5.5.9",
-        "illuminate/database": "5.1.* || 5.2.* || 5.3.* || 5.4.*",
-        "illuminate/console": "5.1.* || 5.2.* || 5.3.* || 5.4.*",
-        "illuminate/contracts": "5.1.* || 5.2.* || 5.3.* || 5.4.*",
-        "illuminate/http": "5.1.* || 5.2.* || 5.3.* || 5.4.*",
-        "illuminate/support": "5.1.* || 5.2.* || 5.3.* || 5.4.*",
-        "illuminate/config": "5.1.* || 5.2.* || 5.3.* || 5.4.*",
+        "illuminate/database": "^5.0",
+        "illuminate/console": "^5.0",
+        "illuminate/contracts": "^5.0",
+        "illuminate/http": "^5.0",
+        "illuminate/support": "^5.0",
+        "illuminate/config": "^5.0",
         "league/oauth2-server": "4.1.*"
     },
     "require-dev": {
